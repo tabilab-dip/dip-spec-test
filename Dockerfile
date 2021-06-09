@@ -1,9 +1,5 @@
-# assumes docker is built from root directory with dockerfile: dip_specs/Dockerfile
-# in root of the project run: docker build -t morph_sak -f dip_specs/Dockerfile .
-# after building: run it with: 
-# this docker need ubuntu
-# it starts flask app on port 4444 (port of the container)
-# 
+# NOT COMPLETE
+
 FROM ubuntu:16.04
 RUN apt-get -y update
 RUN apt install software-properties-common -y
